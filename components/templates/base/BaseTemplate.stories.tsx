@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 import BaseTemplate, { IBaseTemplate } from './Basetemplate'
 import { mockBaseTemplateProps } from './BaseTemplate.mocks'

@@ -2,11 +2,24 @@
   "name": "project",
   "version": "0.1.0",
   "private": true,
+  "description": "Runs prettier as an eslint rule",
+  "repository": "git+https://github.com/prettier/eslint-plugin-prettier.git",
+  "homepage": "https://github.com/prettier/eslint-plugin-prettier#readme",
+  "funding": "https://opencollective.com/prettier",
+  "author": "Teddy Katz",
+  "contributors": [
+    "JounQin (https://github.com/JounQin) <admin@1stg.me>"
+  ],
   "engines": {
     "node": ">=18.2.0",
     "yarn": ">=1.22.19",
     "npm": "please-use-yarn"
   },
+  "license": "MIT",
+  "main": "eslint-plugin-prettier.js",
+  "files": [
+    "eslint-plugin-prettier.js"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -23,8 +36,20 @@
     "react-dom": "18.2.0",
     "util": "^0.12.4"
   },
+  "peerDependencies": {
+    "eslint": ">=8.21.0",
+    "prettier": ">=2.7.1"
+  },
+  "peerDependenciesMeta": {
+    "eslint-config-prettier": {
+      "optional": true
+    }
+  },
   "devDependencies": {
+    "@1stg/common-config": "^6.1.4",
+    "@1stg/eslint-config": "^5.4.4",
     "@babel/core": "^7.18.10",
+    "@graphql-eslint/eslint-plugin": "^3.10.7",
     "@storybook/addon-actions": "^6.5.10",
     "@storybook/addon-essentials": "^6.5.10",
     "@storybook/addon-interactions": "^6.5.10",
@@ -44,8 +69,14 @@
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.3",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-mdx": "^2.0.2",
+    "eslint-plugin-eslint-plugin": "^5.0.2",
+    "eslint-plugin-mdx": "^2.0.2",
     "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-self": "^1.2.1",
     "eslint-plugin-storybook": "^0.6.3",
+    "eslint-plugin-svelte": "^2.4.1",
+    "eslint-plugin-utils": "^0.3.1",
     "husky": "^8.0.1",
     "prettier": "^2.7.1",
     "sass": "^1.54.2",
