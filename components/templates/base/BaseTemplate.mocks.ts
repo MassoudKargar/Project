@@ -1,4 +1,5 @@
 /* eslint-disable prettier/prettier */
+
 import { IBaseTemplate } from './BaseTemplate'
 
 const base: IBaseTemplate = {
