@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 
-import { IBaseTemplate } from './BaseTemplate'
+import { IBaseTemplate } from './Basetemplate'
 
 const base: IBaseTemplate = {
   sampleTextProp: 'Hello world!',
