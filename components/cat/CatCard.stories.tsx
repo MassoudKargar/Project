@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 
 import CatCard, { ICatCard } from './CatCard';
