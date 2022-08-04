@@ -2,10 +2,47 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  // Add those two lines:
   "editor.formatOnSave": true, // Tell VSCode to format files on save
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[sass]": {
-    "editor.defaultFormatter": "syler.sass-indented"
-  } // Tell VSCode to use Prettier as default file formatter
+    "editor.defaultFormatter": "syler.sass-indented",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.organizeImports": true
+    },
+  },
+  "cSpell.words": [
+    "codenames",
+    "colour",
+    "commitlint",
+    "datacentres",
+    "devs",
+    "Eagleson",
+    "esbenp",
+    "Etyo",
+    "Kasper",
+    "leerob",
+    "nextauth",
+    "nextjs",
+    "npmrc",
+    "pravatar",
+    "preload",
+    "prettierignore",
+    "prettierrc",
+    "regexes",
+    "rgba",
+    "scaleable",
+    "signin",
+    "Supabase",
+    "superpowered",
+    "tailwindcss",
+    "typeof",
+    "typesafe",
+    "unoptimized",
+    "userinfo",
+    "Vercel",
+    "Viewports",
+    "WEBP"
+  ]
 }
