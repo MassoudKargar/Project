@@ -44,5 +44,8 @@
     "Vercel",
     "Viewports",
     "WEBP"
-  ]
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
